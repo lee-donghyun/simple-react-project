@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx webpack serve --hot --mode development --port 3000",
+    "start": "webpack serve --hot --mode development --port 3000",
     "build": "webpack --mode production"
   },
   "dependencies": {
