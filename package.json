@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npx webpack serve --hot --mode development --port 3000",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "react": "^17.0.2",
